@@ -52,15 +52,15 @@ class _homescreenState extends State<homescreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
           Container(
               padding: EdgeInsets.all(10),
-              margin: EdgeInsets.only(left: 10,right: 10,bottom: 10,top:50),
+              margin: EdgeInsets.only(left: 0,right: 0,bottom: 30,top:0),
               child: Text('You are $cat ',
                 style: TextStyle(
                   color: Colors.black,
-                  fontSize: 30,
+                  fontSize: 35,
                   fontFamily: 'heading',
                 ),
               )
@@ -92,7 +92,7 @@ class _homescreenState extends State<homescreen> {
           ),
           Container(
             padding: EdgeInsets.all(10),
-            margin: EdgeInsets.only(left: 10,right: 10,bottom: 15,top:0),
+            margin: EdgeInsets.only(left: 10,right: 10,bottom: 15,top:30),
             child:Lottie.asset(
               'assets/5683-health-cycling.json',
               height: MediaQuery.of(context).size.width*0.3,
@@ -154,7 +154,7 @@ class _homescreenState extends State<homescreen> {
             ),
           Container(
             padding: EdgeInsets.all(10),
-            margin: EdgeInsets.only(left: 10,right: 10,bottom:50,top:10),
+            margin: EdgeInsets.only(left: 10,right: 10,bottom:20,top:0),
             decoration: BoxDecoration(
               color: Colors.black,
               borderRadius: BorderRadius.circular(10.0),
