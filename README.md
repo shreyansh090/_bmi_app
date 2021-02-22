@@ -4,4 +4,4 @@ A BMI Calculator App
 
 ## Getting Started
 
-Download the Apk file here 
+Get the screen recording of the app here https://youtu.be/KZ15cQRqHyo
